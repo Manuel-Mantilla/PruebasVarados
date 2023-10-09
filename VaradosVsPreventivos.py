@@ -52,6 +52,7 @@ def main(path:str):
                 continue
 
     print(varados.sample(50))
+    varados.to_csv("C:/Users/Administrador/Documents/MANUEL/PROGRAMACION/PYTHON/Pruebas_CEXP/Varados/info.csv", sep=";", index=False)
 
 if __name__ == "__main__":
     path = "C:/Users/Administrador/Documents/MANUEL/PROGRAMACION/PYTHON/Pruebas_CEXP/Varados"
